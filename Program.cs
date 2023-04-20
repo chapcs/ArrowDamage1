@@ -16,7 +16,7 @@ internal class Program
             char key = Console.ReadKey().KeyChar;
             if (key != '0' && key != '1' && key != '2' && key != '3') return;
 
-            Console.Write("S for sword, A for arrow, anything else to quit: ");
+            Console.Write("\nS for sword, A for arrow, anything else to quit: ");
             char weaponKey = Char.ToUpper(Console.ReadKey().KeyChar);
             // could use some if/else statements to pick between the two characters
             // instead we will use a switch statement designed to do this
